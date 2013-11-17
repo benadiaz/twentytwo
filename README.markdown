@@ -10,6 +10,11 @@ Why is that good?
 - Media keys support! (Yeah, those with ▶ ❚❚ on them.)
 - Stops on suspend.
 
+
+## Download?
+
+Yes, this is available here: https://github.com/marcw/twentytwo/raw/master/dist/TwentyTwo.dmg
+
 ## Credits
 
 Derived from the work of Márton Salomváry on the
