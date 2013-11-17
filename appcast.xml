@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"	xmlns:dc="http://purl.org/dc/elements/1.1/">
+	 <channel>
+			<title>TwentyTwo's Changelog</title>
+			<link>https://raw.github.com/marcw/twentytwo/master/appcast.xml</link>
+			<description>Most recent changes with links to updates.</description>
+			<language>en</language>
+				 <item>
+						<title>Version 0.1.0</title>
+						<description><![CDATA[
+							<ul>
+								<li>Automatic updates yay!</li>
+							</ul>
+						]]></description>
+						<pubDate>Sun, 17 Nov 2013 22:47:00 +0100</pubDate>
+						<enclosure url="https://github.com/marcw/twentytwo/raw/master/dist/TwentyTwo.dmg" sparkle:version="0.1.0" length="438247" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDFThlMqnbgK5EPby8HhI6SP1SWUAIUEqii4DrtYfiydtgya2hTCaXOU1k=" />
+				 </item>
+	 </channel>
+</rss>
