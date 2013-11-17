@@ -1,17 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="440" height="310" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<defs>
-		<radialGradient id="gradient">
-			<stop stop-color="#1e8bcc" offset="0%"/>
-			<stop stop-color="#2c3990" offset="100%"/>
-		</radialGradient>
-	</defs>
-  <rect width="440" height="310" fill="url(#gradient)"/>
+  <rect width="440" height="310" fill="black"/>
 	<g transform="translate(25,65)">
-	  <text font-family="Lucida Grande" font-size="40" font-weight="bold" fill="white">SoundCleod</text>
+	  <text font-family="Helvetica" font-size="40" fill="#EEE">TwentyTwo</text>
 	</g>
 	<g transform="translate(200, 130)">
 		<polygon points="0,12 12,12 12,0 40,25 12,50 12,38 0,38"
-			fill="#f60"/>
+			fill="#EEE"/>
 	</g>
 </svg>
