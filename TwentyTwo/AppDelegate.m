@@ -140,31 +140,12 @@ id tmpHostWindow;
     return [popupController show];
 }
 
-- (void)webView:(WebView *)sender didReceiveTitle:(NSString *)title forFrame:(WebFrame *)frame
-{
-    if (frame == [webView mainFrame]) {
-        [window setTitle:title];
-        if ([self isPlaying]) {
-            title = [title stringByReplacingOccurrencesOfString:@"▶ " withString:@""];
-            NSArray *info = [title componentsSeparatedByString:@" by "];
-            if (info.count == 1) {
-                // current track is part of a set
-                info = [title componentsSeparatedByString:@" in "];
-            }
-            NSUserNotification *notification = [[NSUserNotification alloc] init];
-            notification.title = info[0]; // track
-            notification.informativeText = info[1]; // artist
-            [[NSUserNotificationCenter defaultUserNotificationCenter] deliverNotification:notification];
-        }
-    }
-}
-
 - (void)webView:(WebView *)sender decidePolicyForNavigationAction:(NSDictionary *)actionInformation
         request:(NSURLRequest *)request frame:(WebFrame *)frame decisionListener:(id)listener
 {
     // normal in-frame navigation
     if(frame != [webView mainFrame] || [AppDelegate isTTURL:[request URL]]) {
-        // allow loading urls in sub-frames OR when they are sc urls
+        // allow loading urls in sub-frames OR when they are tt urls
         [listener use];
     } else {
         [listener ignore];
