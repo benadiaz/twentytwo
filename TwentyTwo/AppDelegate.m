@@ -11,10 +11,9 @@
 #import "AppDelegate.h"
 
 NSString *const TTNavigate = @"documentation.location = '%@'";
-NSString *const TTPlayFirst = @"document.location = $('tbody.track-nav tr:first-child td.artist a').attr('href')";
-NSString *const TTPlayPause = @"$('.playpause').click()";
-NSString *const TTNext = @"$('.next').click()";
-NSString *const TTPrev = @"$('.prev').click()";
+NSString *const TTPlayPause = @"angular.element($('[ng-controller=PlayerCtrl]')).scope().Audio.playpause();";
+NSString *const TTNext = @"angular.element($('[ng-controller=PlayerCtrl]')).scope().Audio.next();";
+NSString *const TTPrev = @"angular.element($('[ng-controller=PlayerCtrl]')).scope().Audio.previous();";
 NSString *const TTIsPlaying = @"$('.playpause.play')";
 
 NSURL *baseUrl = nil;
@@ -81,7 +80,6 @@ id tmpHostWindow;
                                                                name: TTApplicationDidPressSpaceBarKey object: NULL];
 
     [window setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
-    [webView stringByEvaluatingJavaScriptFromString:TTPlayFirst];
 }
 
 
