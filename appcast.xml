@@ -6,14 +6,14 @@
 			<description>Most recent changes with links to updates.</description>
 			<language>en</language>
 				 <item>
-						<title>Version 0.1.0</title>
+						<title>Version 0.2.0</title>
 						<description><![CDATA[
 							<ul>
-								<li>Automatic updates yay!</li>
+								<li>Works for the new version of TwentyTwo tracks</li>
 							</ul>
 						]]></description>
-						<pubDate>Sun, 17 Nov 2013 22:47:00 +0100</pubDate>
-						<enclosure url="https://github.com/marcw/twentytwo/raw/master/dist/TwentyTwo.dmg" sparkle:version="0.1.0" length="438247" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDFThlMqnbgK5EPby8HhI6SP1SWUAIUEqii4DrtYfiydtgya2hTCaXOU1k=" />
+						<pubDate>Sun, 29 Jun 2014 12:19:57 +0200</pubDate>
+						<enclosure url="https://github.com/marcw/twentytwo/raw/master/dist/TwentyTwo.dmg" sparkle:version="0.2.0" length="444378" type="application/octet-stream" sparkle:dsaSignature="MC4CFQDzj6Iy9DkM4JisVFUb4OnQD9hloQIVAK8FWwaBgrW7Dn6+fsti1F2ncsVn" />
 				 </item>
 	 </channel>
 </rss>
