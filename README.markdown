@@ -1,3 +1,9 @@
+# NOT MAINTAINED ANYMORE.
+
+You can use https://github.com/beardedspice/beardedspice instead.
+
+
+
 ## What's TwentyTwo?
 
 TwentyTwo is a Mac OS X application which brings
